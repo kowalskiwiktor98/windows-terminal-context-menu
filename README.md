@@ -6,7 +6,7 @@
 
 ## Instalation
 
-### Download .reg file and double click it.
+### Download .reg file, change paths to correct ones and double click it.
 ### See explanation below to understand what each line does:
 
 #
@@ -23,7 +23,7 @@ Text that will appear in context menu\
 Optional icon, for example\
 `"Icon"="%USERPROFILE%\\AppData\\Local\\terminal\\terminal.ico"`
 
-Path to your wt.exe, example path for Windows Store\
+Path to your wt.exe, example path for Windows Store. Change USER to your username\
 `@="C:\\Users\\!USER!\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe --startingDirectory %V"`
 
 
